@@ -1,0 +1,8 @@
+@import '../styles/reset.css';
+@import '../styles/variables.css';
+@import '../styles/section/header.css';
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-30);
+}

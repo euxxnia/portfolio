@@ -1,0 +1,37 @@
+#header {
+    position: fixed;
+    z-index: 10000;
+    width: 100vw;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.header__nav li {
+    display: inline-flex;
+    align-items: center;
+    padding: 32px;
+    padding-top: 28px;
+    /* background-color: aquamarine; */
+}
+
+.header__nav li a {
+    color: var(--main-pinkGray3);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__nav li a:hover {
+    color: var(--main-brown);
+}
+
+.header__nav li a:active,
+:hover {
+    color: var(--main-brown, #7B6B68);
+}

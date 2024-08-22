@@ -1,5 +1,8 @@
-export default function Home() {
+import Header from "@/components/Header";
+
+export default function About() {
+
   return (
-    <div>next.js</div>
+    <Header />
   )
 }
